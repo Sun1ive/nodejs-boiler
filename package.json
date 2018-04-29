@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-boiler",
+  "version": "1.0.0",
+  "description": "my ts boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -e ts --exec ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sun1ive/nodejs-boiler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sun1ive/nodejs-boiler/issues"
+  },
+  "homepage": "https://github.com/Sun1ive/nodejs-boiler#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.4",
+    "@types/morgan": "^1.7.35",
+    "nodemon": "^1.17.3",
+    "ts-node": "^6.0.2",
+    "tslint": "^5.9.1"
+  }
+}
