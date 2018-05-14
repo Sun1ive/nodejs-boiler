@@ -8,6 +8,7 @@
     "ordered-imports": false,
     "object-literal-sort-keys": false,
     "no-consecutive-blank-lines": false,
-    "arrow-parens": false
+    "arrow-parens": false,
+    "no-console": false
   }
 }
